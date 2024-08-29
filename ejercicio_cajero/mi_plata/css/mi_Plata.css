@@ -1,0 +1,38 @@
+body {
+   background-image: url(cajero.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-color: rgb(6, 107, 105);
+    
+}
+.titulo{
+    display: flex;
+    width: auto;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(9, 9, 9);  
+    margin-top: 200px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row wrap;
+    align-items: center;
+    margin-top: 300px;
+    margin: 0;
+    
+}
+.hidden{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hidden h2{
+    display: flex;
+}
+
+
